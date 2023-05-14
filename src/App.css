@@ -53,6 +53,12 @@ p {
   margin-bottom: 0px;
 }
 
+h2 {
+  font-size: 30px;
+  color: white;
+  margin-top: 200
+}
+
 .main {
   position: fixed;
   width: 1600px;
@@ -90,4 +96,25 @@ svg {
 
 svg:hover {
   fill: hsl(345, 95%, 68%);
+}
+
+@media (max-width: 375px) {
+  .main {
+    width: 375px;
+  }
+
+  p {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+  }
+
+  h3 {
+    font-size: 5px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 250px;
+  }
 }
